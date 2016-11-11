@@ -9,12 +9,17 @@ cite {
   margin-top: 10px;
 }
 
-#external-links ul {
-  display: inline-block;
-  vertical-align: text-top;
+#external-links ul{
+  border-style: solid;
+  border-color: black;
   width: 200px;
   list-style-type: none;
   padding-left: 0px;
+}
+
+main {
+ border-style: solid;
+ border-color: black;
 }
 
 /* you're welcome to edit the
@@ -22,7 +27,6 @@ image, figure, and figcaption CSS if you'd like,
 but it's optional! */
 
 body {
-  display: inline-block;
   vertical-align: top;
   width: 756px;
 }
