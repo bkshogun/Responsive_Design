@@ -9,15 +9,20 @@ cite {
   margin-top: 10px;
 }
 
-#external-links ul{
+#external-links {
+  float: left;
+  width: 200px;
+  vertical-align: top;
   border-style: solid;
   border-color: black;
-  width: 200px;
   list-style-type: none;
   padding-left: 0px;
 }
 
 main {
+ float: right;
+ width: 756px;
+ vertical-align: top;
  border-style: solid;
  border-color: black;
 }
@@ -27,7 +32,6 @@ image, figure, and figcaption CSS if you'd like,
 but it's optional! */
 
 body {
-  vertical-align: top;
   width: 756px;
 }
 
