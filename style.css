@@ -1,7 +1,7 @@
-/*body {
+body {
   max-width: 960px;
 }
-*/
+
 #external-links {
   width: 25%;
   display: block;
@@ -43,8 +43,27 @@ figcaption {
   text-align: right;
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 540px) {
   body {
-    background-color: hotpink;
+    max-width: 100%;
+  }
+  #external-links {
+    width: 100%;
+    display: block;
+    float: top;
+  }
+  main {
+    width: 100%;
+    display: block;
   }
 }
+
+/*@media screen and (max-width: 960px) {
+  blockquote{
+    width: 25%;
+    display: block;
+    float: left;
+  }
+}*/
+
