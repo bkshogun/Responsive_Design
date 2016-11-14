@@ -43,10 +43,9 @@ figcaption {
   text-align: right;
 }
 
-
 @media screen and (max-width: 540px) {
   body {
-    max-width: 100%;
+    width: 100%;
   }
   #external-links {
     width: 100%;
@@ -59,11 +58,9 @@ figcaption {
   }
 }
 
-/*@media screen and (max-width: 960px) {
-  blockquote{
-    width: 25%;
-    display: block;
-    float: left;
+@media screen and (max-width: 320px) {
+  body {
+    width: 320px;
   }
-}*/
+}
 
